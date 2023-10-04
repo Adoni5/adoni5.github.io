@@ -11,14 +11,28 @@
     font-family: 'Raleway', sans-serif; /* Setting the Raleway font */
 }
 
+html {
+    font-size: 16px; /* Base font size */
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+    display: flex;           /* Enable Flexbox */
+    justify-content: center; /* Horizontally align items to the center */
+    align-items: center;     /* Vertically align items to the center */
+}
+
+.title-text {
+    padding-right: 1rem;
+    text-align: right;
+}
+
 .portrait {
-    max-width: 200px;
-    border-radius: 50%; /* This makes the image round */
-    margin: 20px 0;
-    
-    /* Border properties */
-    border: 5px solid #4CAF50; /* This gives a 5px border with a pleasant green color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    max-width: 6rem;
+    border-radius: 33%;
+    margin: 1rem 0;
+    border: 0.3rem solid #bcc0cc;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 /* Logo or Name */
@@ -52,4 +66,10 @@
     }
 
     /* Other styles for hamburger menu, etc. would go here */
+}
+
+@media screen and (min-width: 3640px) {
+    html {
+        font-size: 40px; /* Increases the base font size for 4K resolution */
+    }
 }
