@@ -9,6 +9,7 @@
     top: 0; /* It sticks to the top */
     z-index: 1000; /* Ensures the header is always on top of other content */
     font-family: 'Raleway', sans-serif; /* Setting the Raleway font */
+    color: #4c4f69;
 }
 
 html {
@@ -63,6 +64,9 @@ html {
 @media (max-width: 768px) {
     .header nav {
         display: none; /* Initially hide on mobile */
+    }
+    .portrait {
+        display: none;
     }
 
     /* Other styles for hamburger menu, etc. would go here */
