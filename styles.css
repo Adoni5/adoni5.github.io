@@ -1,6 +1,6 @@
 /* Main Header Style */
 .header {
-    background-color: #f4f4f4;
+    background-color: #eff1f5;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,16 @@
     top: 0; /* It sticks to the top */
     z-index: 1000; /* Ensures the header is always on top of other content */
     font-family: 'Raleway', sans-serif; /* Setting the Raleway font */
+}
+
+.portrait {
+    max-width: 200px;
+    border-radius: 50%; /* This makes the image round */
+    margin: 20px 0;
+    
+    /* Border properties */
+    border: 5px solid #4CAF50; /* This gives a 5px border with a pleasant green color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
 }
 
 /* Logo or Name */
